@@ -395,10 +395,7 @@ header nav ul .picture-avatar {
     border-radius: 50%;
 }
 
-.menu-item.profile-img {
-    padding-top: .5rem !important;
 
-}
 
 .menu-item.profile-img i {
     padding-top: 0 !important;
@@ -432,11 +429,12 @@ header nav .menu .menu-item a {
     font-size: 1.1rem;
     padding: 0px 2rem;
     transition: .2s ease-in-out;
+    height: 10vh;
 }
 
 nav .menu .menu-item.active {
     border-bottom: 2px solid var(--light-blue);
-    ;
+    height: 10vh;
 }
 
 nav .menu .menu-item.active a {
