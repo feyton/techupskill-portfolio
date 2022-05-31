@@ -647,12 +647,12 @@ main .hero button:hover {
     padding: 1rem 3rem;
     justify-content: center;
     border: none;
-    background-color: rgb(48, 138, 173);
+    background-color:var(--light-blue);
     border: none;
     font-family: var(--Lato);
     font-weight: 600;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: .5s ease;
 }
@@ -831,16 +831,17 @@ blockquote.twitter-tweet {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #a1d3b2 0%, #80d3c4 100%);
+    background-color: var(--light-blue);
     margin: 5px 0px;
     border-radius: 20rem;
     font-family: var(--Lato);
     font-weight: 600;
     cursor: pointer;
+    color: white;
 }
 
 .categories .category span {
-    color: var(--dark-grey);
+    color: white;
 }
 
 /* Services and our Work */
